@@ -8,8 +8,8 @@
 .sub-main{
   display: flex;
   justify-content: center;
-  height: 550px;
-  width: 35%;
+  height: 500px;
+  width: 25%;
   box-shadow: 11px 12px 13px 12px rgb(207,207,207) ;
   padding-top: 30px;
   border-radius: 60px;
@@ -67,6 +67,8 @@ button{
 }
 .login-button{
   padding-top: 15px;
+  width: 20%;
+  height: auto;
 }
 .link{
   font-size: 25px;

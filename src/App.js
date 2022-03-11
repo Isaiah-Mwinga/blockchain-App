@@ -1,7 +1,14 @@
+import React from 'react';
 import './App.css';
+import searchBar from './components/searchBar';
 function App() {
+  const isBackgroundRed = true;
   return (
+
     <div className="main">
+      <div>
+        <searchBar />
+      </div>
       <div className="sub-main">
         <div>
           <div className="imgs">
@@ -28,9 +35,11 @@ function App() {
               <a href="#">forgot password?</a>or<a href="#">sign up</a>
             </p>
           </div>
+         
         </div>
     
       </div>
+      <div className={isBackgroundRed ? 'background-red' : 'background-blue'} />
     </div>
   );
 }

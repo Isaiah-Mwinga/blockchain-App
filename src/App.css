@@ -5,6 +5,12 @@
   padding: 90px 0 90px 0;
 
 }
+.background-red{
+  background-color: red;
+}
+.background-blue{
+  background-color: blue;
+}
 .sub-main{
   display: flex;
   justify-content: center;
